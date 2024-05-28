@@ -1,0 +1,13 @@
+.rates {
+    color: var(--main-red);
+    display: flex;
+    justify-content: end;
+    margin-top: 35px;
+    font-size: 30px;
+    gap: 10px;
+  }
+
+  .fa-regular {
+    color: #bbb;
+  }
+  

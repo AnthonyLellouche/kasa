@@ -50,9 +50,8 @@
   object-fit: cover;
   object-position: center;
   width: 100%;
-  height: 360px;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
+  height: 440px;
+  border-radius: 10px;
 }
 
 .logements {
@@ -70,19 +69,12 @@
 }
 
 .card {
-  background-image: linear-gradient(
-    to bottom,
-    #ff6060,
-    #f45c5c,
-    #ea5858,
-    #df5555,
-    #d55151
-  );
   width: calc(33.333% - 55px);
   box-sizing: border-box;
   height: 440px;
   border-radius: 10px;
   text-align: center;
+  position: relative;
 }
 
 .card h2 {
@@ -92,6 +84,8 @@
   display: flex;
   flex-direction: column;
   text-align: left;
+  bottom: 10px;
+  position: absolute;
 }
 
 .card a {

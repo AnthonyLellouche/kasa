@@ -1,0 +1,136 @@
+/* carrouselle */
+
+#banner {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 470px;
+  position: relative;
+}
+
+.banner-img {
+  border-radius: 20px;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  object-fit: cover;
+  object-position: center;
+}
+
+.dots {
+  text-align: center;
+  position: absolute;
+  bottom: 25px;
+  color: white;
+  font-size: 1.125rem;
+}
+
+.dot {
+  height: 10px;
+  width: 10px;
+  margin: 0 5px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  border: none;
+  color: white;
+  background-color: transparent;
+  font-size: 5rem;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.arrow_left {
+  left: 10px;
+}
+
+.arrow_right {
+  right: 10px;
+}
+/* titre et proprietaire */
+.landlord {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  justify-content: end;
+}
+
+.landlord img {
+  height: 60px;
+  border-radius: 50px;
+}
+
+.landlord .name {
+  color: var(--main-red);
+  margin-right: 10px;
+  text-align: end;
+}
+
+.container-landlord {
+  margin-top: 20px;
+}
+
+.container-title .title {
+  color: var(--main-red);
+  font-weight: 500;
+  font-size: 2rem;
+  margin-bottom: 0px;
+}
+
+.container-title .subtitle {
+  margin-top: 10px;
+}
+
+.first-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tags button {
+  border: none;
+  background-color: var(--main-red);
+  color: var(--main-white);
+  border-radius: 10px;
+  padding: 4px 30px;
+  font-weight: 700;
+  font-size: 0.875rem;
+  margin-right: 10px;
+}
+
+/* Container description et equipement */
+
+.second-container {
+  padding-top: 20px;
+}
+
+.container-description {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  gap: 80px;
+}
+
+.collapse {
+  flex: 1;
+}
+
+.custom-collapse .toggle {
+  border-radius: 5px;
+  font-size: 1.125rem;
+}
+
+.equipements-list li {
+  list-style: none;
+}
+
+.equipements-list {
+  padding-left: 0px;
+}

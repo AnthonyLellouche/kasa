@@ -1,35 +1,44 @@
 import React from "react";
-import Navigation from "../components/Navigation";
+import Collapse from "../components/Collapse";
+import "../styles/pages/about.css"
 
 const About = () => {
   return (
-    <div>
-        <Navigation />
-      <h1>A PROPOS</h1>
+    <div className="faq">
+      <Collapse label="Fiabilité">
+        <p>
+          Les annonces postées sur Kasa garantissent une fiabilité totale. Les
+          photos sont conformes aux logements, et toutes les informations sont
+          régulièrement vérifiées par nos équipes.
+        </p>
+      </Collapse>
       <br />
-      <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus
-        inventore, fugit vitae error odio ea voluptatem atque quae?
-        Exercitationem recusandae aut quisquam deleniti, error repellat aliquam
-        tempore voluptatibus explicabo reprehenderit dolorem maiores sapiente
-        eligendi harum voluptas neque inventore cum aperiam commodi debitis
-        corporis, id magni fugit quidem. Voluptatem magnam in dolore repellat
-        cum eligendi neque, quia vel molestias ipsa unde suscipit, expedita
-        distinctio! Deleniti laudantium maxime accusamus voluptas. Similique
-        officiis quos quia? Suscipit eius temporibus animi expedita, ab
-        doloribus explicabo dolore exercitationem tempore, nemo fugit vel
-        nesciunt saepe ullam amet sequi corrupti facere architecto adipisci
-        tenetur culpa repellendus ducimus blanditiis!
-      </p>
+      <Collapse label="Respect">
+        <p>
+          La bienveillance fait partie des valeurs fondatrices de Kasa. Tout
+          comportement discriminatoire ou de perturbation du voisinage
+          entraînera une exclusion de notre plateforme.
+        </p>
+      </Collapse>
       <br />
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam impedit
-        tempore perspiciatis aut. Officiis vero nulla qui perferendis unde iste
-        doloremque beatae pariatur harum nostrum quaerat magni maiores hic ipsam
-        ratione nemo repudiandae aperiam facilis, magnam nisi maxime corporis
-        illum alias assumenda. Adipisci velit ipsam nobis nulla, maxime voluptas
-        labore?
-      </p>
+      <Collapse label="Service">
+        <p>
+          La bienveillance fait partie des valeurs fondatrices de Kasa. Tout
+          comportement discriminatoire ou de perturbation du voisinage
+          entraînera une exclusion de notre plateforme.
+        </p>
+      </Collapse>
+      <br />
+      <Collapse label="Sécurité">
+        <p>
+          La sécurité est la priorité de Kasa. Aussi bien pour nos hôtes que
+          pour les voyageurs, chaque logement correspond aux critères de
+          sécurité établis par nos services. En laissant une note aussi bien à
+          l'hôte qu'au locataire, cela permet à nos équipes de vérifier que les
+          standards sont bien respectés. Nous organisons également des ateliers
+          sur la sécurité domestique pour nos hôtes.
+        </p>
+      </Collapse>
     </div>
   );
 };

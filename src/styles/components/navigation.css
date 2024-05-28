@@ -8,6 +8,11 @@
 .navigation ul {
 list-style-type: none;
 display: flex;
-gap: 10px;
-border: none;
+gap: 30px;
+font-weight: 500;
 }
+
+.navigation li {
+    color: black;
+}
+
