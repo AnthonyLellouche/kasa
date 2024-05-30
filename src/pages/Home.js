@@ -6,7 +6,7 @@ import info from "../info.json";
 
 const Home = () => {
   return (
-    <div>
+    <div className="container-home">
       <section className="banner">
         <img src={banner} alt="banniere representant une plage" />
         <div className="banner-text">

@@ -94,3 +94,48 @@
   border-radius: 10px;
   text-decoration: none;
 }
+
+/* media querries */
+@media (max-width: 767.98px) {
+  .container-home {
+    padding-right: 25px;
+    padding-left: 25px;
+  }
+
+  .header-nav {
+    gap: 10px;
+  }
+
+  .banner {
+    height: 150px;
+    border-radius: 10px;
+  }
+
+  .banner-text h1 {
+    font-size: 24px;
+    text-shadow: none;
+    text-align: left;
+  }
+
+  .banner-text .break-line {
+    display: block;
+  }
+
+  .banner-text {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    padding-left: 10px;
+  }
+
+  .logements-cards {
+    background-color: white;
+    flex-direction: column;
+    padding: 0px;
+  }
+
+  .card {
+    width: 100%;
+  }
+}

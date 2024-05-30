@@ -1,0 +1,39 @@
+.pageNotFound {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 70px;
+}
+
+.pageNotFound h1 {
+  font-size: 15rem;
+  margin: 5rem;
+  color: var(--main-red);
+}
+
+.pageNotFound p {
+  color: var(--main-red);
+  font-size: 2rem;
+}
+
+.pageNotFound a {
+  color: black;
+  margin-bottom: 5rem;
+}
+
+@media (max-width: 767.98px) {
+  .pageNotFound h1 {
+    font-size: 6rem;
+    margin-bottom: 0;
+  }
+
+  .pageNotFound p {
+    font-size: 1.125rem;
+  }
+
+  .pageNotFound {
+    padding: 0 50px;
+    text-align: center;
+  }
+}

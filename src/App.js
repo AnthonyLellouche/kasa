@@ -6,6 +6,7 @@ import NotFound from "./pages/NotFound";
 import Footer from "./components/Footer";
 import Fiche from "./pages/Fiche";
 import Navigation from "./components/Navigation";
+import "./styles/index.css"
 
 const App = () => {
   return (

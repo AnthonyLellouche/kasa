@@ -123,7 +123,6 @@
 }
 
 .custom-collapse .toggle {
-  border-radius: 5px;
   font-size: 1.125rem;
 }
 
@@ -133,4 +132,31 @@
 
 .equipements-list {
   padding-left: 0px;
+}
+
+/* media querries */
+@media (max-width: 767.98px) { 
+  .fiche {
+    padding: 0 25px;
+  }
+
+  .first-container {
+    flex-direction: column;
+  }
+
+  .container-landlord {
+    flex-direction: row-reverse;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .container-description {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .tag {
+    margin-top:10px ;
+  }
 }

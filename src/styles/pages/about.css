@@ -1,3 +1,23 @@
-.faq span{
-   font-size: 50px;
+.collapse-container {
+  padding: 30px 120px;
+}
+
+.custom-collapse-about .toggle {
+  font-size: 1.5rem;
+}
+
+/* media querries */
+@media (max-width: 767.98px) { 
+  .collapse-container {
+    padding: 30px 0 0;
+  }
+
+  .faq {
+    padding: 25px;
+  }
+
+  .custom-collapse-about .toggle {
+    font-size: 0.813rem;
+    height: 40px;
+  }
 }
