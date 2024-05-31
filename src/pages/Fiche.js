@@ -11,6 +11,9 @@ import NotFound from "./NotFound";
 import Rating from "../components/Rating";
 import Collapse from "../components/Collapse";
 
+import arrowLeff from "../assets/fonts/arrow-left.png";
+import arrowRight from "../assets/fonts/arrow-right.png";
+
 const Fiche = () => {
   const { id } = useParams();
   const logement = info.find((item) => item.id === id);
@@ -47,10 +50,10 @@ const Fiche = () => {
           {pictures.length > 1 && (
             <div>
               <button className="arrow arrow_left" onClick={goToPreviousImage}>
-                <i className="fa-solid fa-chevron-left"></i>
+                <img src={arrowLeff} alt="Fleche de gauche" />
               </button>
               <button className="arrow arrow_right" onClick={goToNextImage}>
-                <i className="fa-solid fa-chevron-right"></i>
+                <img src={arrowRight} alt="Fleche de droite" />
               </button>
             </div>
           )}

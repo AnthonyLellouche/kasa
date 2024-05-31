@@ -132,6 +132,7 @@
     list-style: none;
   }
 }
+
 /* media querries */
 @media (max-width: 767.98px) {
   .fiche {
@@ -156,5 +157,9 @@
 
   .tag {
     margin-top: 10px;
+  }
+
+  .arrow img {
+    height: 40px;
   }
 }
