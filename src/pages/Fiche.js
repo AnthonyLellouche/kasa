@@ -1,8 +1,11 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
 import React, { useState } from "react";
 import { useParams } from "react-router-dom";
+
 import info from "../info.json";
-import "../styles/pages/fiche.css";
+
+import "../styles/pages/fiche.scss";
+
 import NotFound from "./NotFound";
 
 import Rating from "../components/Rating";

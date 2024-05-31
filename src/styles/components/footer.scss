@@ -1,9 +1,11 @@
+@use "../base/variables" as base;
+
 .footer {
   margin-top: 40px;
   padding: 30px;
   background-color: black;
   height: 100px;
-  color: var(--main-white);
+  color: base.$main-white;
   display: flex;
   justify-content: center;
   align-items: center;

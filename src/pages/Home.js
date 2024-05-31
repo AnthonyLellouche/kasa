@@ -1,7 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
+
 import banner from "../assets/images/Image-source-1.png";
-import "../styles/pages/home.css";
+
+import "../styles/pages/home.scss";
+
 import info from "../info.json";
 
 const Home = () => {

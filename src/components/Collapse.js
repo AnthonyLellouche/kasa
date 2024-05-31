@@ -1,5 +1,5 @@
 import React, { useRef, useState } from "react";
-import "../styles/components/collapse.css";
+import "../styles/components/collapse.scss";
 
 const Collapse = (props) => {
   const [open, setOpen] = useState(false);

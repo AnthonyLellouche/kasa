@@ -1,5 +1,5 @@
 import React from 'react';
-import "../styles/components/rating.css"
+import "../styles/components/rating.scss"
 
 const Rating = ({ rating }) => {
     const totalStars = 5;

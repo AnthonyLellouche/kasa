@@ -1,17 +1,20 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+
 import Home from "./pages/Home";
 import About from "./pages/About";
 import NotFound from "./pages/NotFound";
-import Footer from "./components/Footer";
 import Fiche from "./pages/Fiche";
+
+import Footer from "./components/Footer";
 import Navigation from "./components/Navigation";
-import "./styles/index.css"
+
+import "./styles/main.scss";
 
 const App = () => {
   return (
     <BrowserRouter>
-    <Navigation/>
+      <Navigation />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />

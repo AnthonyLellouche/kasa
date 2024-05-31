@@ -3,41 +3,37 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  ul {
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+    font-weight: 500;
+  }
 }
-
-.navigation ul {
-  list-style-type: none;
-  display: flex;
-  gap: 30px;
-  font-weight: 500;
-}
-
 .nav-link {
   text-decoration: none;
   color: black;
   text-wrap: nowrap;
 }
-
 .active-link {
   text-decoration: underline;
 }
-
+// media querries
 @media (max-width: 767.98px) {
   .navigation {
     padding: 25px;
+    ul {
+      padding-left: 0;
+    }
   }
-
   .nav-link {
     text-transform: uppercase;
     padding-left: 5px;
     font-size: 0.75rem;
   }
-
-  .logo img {
-    width: 80%;
-  }
-
-  .navigation ul {
-    padding-left: 0;
+  .logo {
+    img {
+      width: 80%;
+    }
   }
 }

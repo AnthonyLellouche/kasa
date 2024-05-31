@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import Logo from "./Logo";
-import "../styles/components/navigation.css";
+import "../styles/components/navigation.scss";
 
 const Navigation = () => {
   return (

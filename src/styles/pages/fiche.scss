@@ -1,3 +1,4 @@
+@use "../base/variables" as base;
 /* carrouselle */
 
 #banner {
@@ -61,50 +62,49 @@
   justify-items: center;
   align-items: center;
   justify-content: end;
-}
-
-.landlord img {
-  height: 60px;
-  border-radius: 50px;
-}
-
-.landlord .name {
-  color: var(--main-red);
-  margin-right: 10px;
-  text-align: end;
+  img {
+    height: 60px;
+    border-radius: 50px;
+  }
+  .name {
+    color: base.$main-red;
+    margin-right: 10px;
+    text-align: end;
+  }
 }
 
 .container-landlord {
   margin-top: 20px;
 }
 
-.container-title .title {
-  color: var(--main-red);
-  font-weight: 500;
-  font-size: 2rem;
-  margin-bottom: 0px;
+.container-title {
+  .title {
+    color: base.$main-red;
+    font-weight: 500;
+    font-size: 2rem;
+    margin-bottom: 0px;
+  }
+  .subtitle {
+    margin-top: 10px;
+  }
 }
-
-.container-title .subtitle {
-  margin-top: 10px;
-}
-
 .first-container {
   display: flex;
   justify-content: space-between;
 }
 
-.tags button {
-  border: none;
-  background-color: var(--main-red);
-  color: var(--main-white);
-  border-radius: 10px;
-  padding: 4px 30px;
-  font-weight: 700;
-  font-size: 0.875rem;
-  margin-right: 10px;
+.tags {
+  button {
+    border: none;
+    background-color: base.$main-red;
+    color: base.$main-white;
+    border-radius: 10px;
+    padding: 4px 30px;
+    font-weight: 700;
+    font-size: 0.875rem;
+    margin-right: 10px;
+  }
 }
-
 /* Container description et equipement */
 
 .second-container {
@@ -121,21 +121,19 @@
 .collapse {
   flex: 1;
 }
-
-.custom-collapse .toggle {
-  font-size: 1.125rem;
+.custom-collapse {
+  .toggle {
+    font-size: 1.125rem;
+  }
 }
-
-.equipements-list li {
-  list-style: none;
-}
-
 .equipements-list {
   padding-left: 0px;
+  li {
+    list-style: none;
+  }
 }
-
 /* media querries */
-@media (max-width: 767.98px) { 
+@media (max-width: 767.98px) {
   .fiche {
     padding: 0 25px;
   }
@@ -157,6 +155,6 @@
   }
 
   .tag {
-    margin-top:10px ;
+    margin-top: 10px;
   }
 }

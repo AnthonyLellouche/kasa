@@ -1,7 +1,10 @@
 import React from "react";
+
 import Collapse from "../components/Collapse";
+
 import banner from "../assets/images/kalen-about.png";
-import "./../styles/pages/about.css";
+
+import "./../styles/pages/about.scss";
 
 const About = () => {
   return (
