@@ -15,7 +15,10 @@
   }
 
   .faq {
-    padding: 25px;
+    padding: 0 25px 25px;
+    .banner {
+     margin-top: 0;
+    }
   }
 
   .custom-collapse-about {
