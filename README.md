@@ -1,10 +1,21 @@
-# Getting Started with Create React App
+# Getting Started with Create React App for use KASA (P.7 OC).
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Les packages SASS ont également été ajoutés à ce projet.
 
 ## Available Scripts
 
-In the project directory, you can run:
+Pour pouvoir lancer le projet : 
+
+Il faut cloner le projet avec :
+
+### `git clone`
+
+Ensuite, installer les dépendances au projet avec : 
+
+### `npm install`
+
+et pour lancer le projet : 
 
 ### `npm start`
 
@@ -64,7 +75,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/a
 ### Deployment
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
