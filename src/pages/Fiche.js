@@ -44,12 +44,16 @@ const Fiche = () => {
             src={pictures[currentImageIndex]}
             alt={`Image ${currentImageIndex + 1}`}
           />
-          <button className="arrow arrow_left" onClick={goToPreviousImage}>
-            <i className="fa-solid fa-chevron-left"></i>
-          </button>
-          <button className="arrow arrow_right" onClick={goToNextImage}>
-            <i className="fa-solid fa-chevron-right"></i>
-          </button>
+          {pictures.length > 1 && (
+            <div>
+              <button className="arrow arrow_left" onClick={goToPreviousImage}>
+                <i className="fa-solid fa-chevron-left"></i>
+              </button>
+              <button className="arrow arrow_right" onClick={goToNextImage}>
+                <i className="fa-solid fa-chevron-right"></i>
+              </button>
+            </div>
+          )}
           <div className="dots">
             {`${currentImageIndex + 1}/${pictures.length}`}
           </div>
