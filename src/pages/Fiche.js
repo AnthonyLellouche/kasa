@@ -48,18 +48,17 @@ const Fiche = () => {
             alt={`Image ${currentImageIndex + 1}`}
           />
           {pictures.length > 1 && (
-            <div>
+            <><div>
               <button className="arrow arrow_left" onClick={goToPreviousImage}>
                 <img src={arrowLeff} alt="Fleche de gauche" />
               </button>
               <button className="arrow arrow_right" onClick={goToNextImage}>
                 <img src={arrowRight} alt="Fleche de droite" />
               </button>
-            </div>
-          )}
-          <div className="dots">
-            {`${currentImageIndex + 1}/${pictures.length}`}
-          </div>
+            </div><div className="dots">
+                {`${currentImageIndex + 1}/${pictures.length}`}
+              </div></>
+        )}
         </div>
 
         <section className="first-container">

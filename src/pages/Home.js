@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import banner from "../assets/images/Image-source-1.png";
+import banner from "../assets/images/banner-home.png";
 
 import "../styles/pages/home.scss";
 
@@ -26,9 +26,7 @@ const Home = () => {
                 <Link to={`/fiche/${logement.id}`}>
                   <img src={logement.cover} alt={logement.title} />
                   <div className="logements-container">
-                    <h2>
-                      {logement.title}
-                    </h2>
+                    <h2>{logement.title}</h2>
                   </div>
                 </Link>
               </div>
